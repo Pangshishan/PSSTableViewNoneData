@@ -10,14 +10,15 @@
 #import "PSSNoneDataView.h"
 #import <objc/runtime.h>
 
+// 这是默认的style, 默认是使用 PSS默认视图 的
+PSSNoneDataStyle PSS_DefaultStyle = PSSNoneDataStyleDefault;
+
 const NSString *Pss_Key_NoneDataStyle = @"Pss_Key_NoneDataStyle";
 const NSString *Pss_Key_ShowNoneDataView = @"Pss_Key_ShowNoneDataView";
 const NSString *Pss_Key_DefaultView = @"Pss_Key_DefaultView";
 const NSString *Pss_Key_DiyView = @"Pss_Key_DiyView";
 const NSString *Pss_Key_ManualShow = @"Pss_Key_ManualShow";
 const NSString *Pss_Key_AutoShowing = @"Pss_Key_AutoShowing";
-
-
 
 @interface UITableView ()
 

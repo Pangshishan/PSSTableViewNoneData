@@ -15,7 +15,7 @@ typedef enum : NSUInteger {
 } PSSNoneDataStyle;
 
 // 这是默认的style, 默认是使用 PSS默认视图 的
-PSSNoneDataStyle PSS_DefaultStyle = PSSNoneDataStyleDefault;
+extern PSSNoneDataStyle PSS_DefaultStyle;
 
 @interface UITableView (PSSNoneData)
 

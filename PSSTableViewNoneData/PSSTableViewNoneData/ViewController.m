@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UITableView+PSSNoneData.h"
 
 #define kScreenWidth  [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
