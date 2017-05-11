@@ -1,4 +1,4 @@
-@version = "1.0.1"
+@version = "1.0.2"
 
 Pod::Spec.new do |s|
   s.name          = "PSSTableViewNoneData"
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author        = { "Pangshishan" => "Pangshishan1@163.com" }
   s.ios.deployment_target   = '8.0'
   s.source        = { :git => "https://github.com/Pangshishan/PSSTableViewNoneData.git", :tag => "v#{s.version}" }
-  s.source_files  = 'PSSTableViewNoneData', 'PSSTableViewNoneDataSet/**/*.{h,m}'
+  s.source_files  = 'PSSTableViewNoneData/PSSTableViewNoneDataSet/**/*.{h,m}'
   s.requires_arc  = true
   s.framework     = "UIKit"
 end
