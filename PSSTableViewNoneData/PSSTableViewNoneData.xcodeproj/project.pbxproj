@@ -13,8 +13,8 @@
 		8952E62A1EB0A3FC00FE6E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8952E6281EB0A3FC00FE6E53 /* Main.storyboard */; };
 		8952E62C1EB0A3FC00FE6E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8952E62B1EB0A3FC00FE6E53 /* Assets.xcassets */; };
 		8952E62F1EB0A3FC00FE6E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8952E62D1EB0A3FC00FE6E53 /* LaunchScreen.storyboard */; };
-		8952E63A1EB0A47000FE6E53 /* UITableView+PSSNoneData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8952E6391EB0A47000FE6E53 /* UITableView+PSSNoneData.m */; };
-		8952E63D1EB0A48E00FE6E53 /* PSSNoneDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8952E63C1EB0A48E00FE6E53 /* PSSNoneDataView.m */; };
+		B66321C61EC43957005651F3 /* PSSNoneDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = B66321C31EC43957005651F3 /* PSSNoneDataView.m */; };
+		B66321C71EC43957005651F3 /* UITableView+PSSNoneData.m in Sources */ = {isa = PBXBuildFile; fileRef = B66321C51EC43957005651F3 /* UITableView+PSSNoneData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		8952E62B1EB0A3FC00FE6E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8952E62E1EB0A3FC00FE6E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8952E6301EB0A3FC00FE6E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8952E6381EB0A47000FE6E53 /* UITableView+PSSNoneData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+PSSNoneData.h"; sourceTree = "<group>"; };
-		8952E6391EB0A47000FE6E53 /* UITableView+PSSNoneData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+PSSNoneData.m"; sourceTree = "<group>"; };
-		8952E63B1EB0A48E00FE6E53 /* PSSNoneDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSSNoneDataView.h; sourceTree = "<group>"; };
-		8952E63C1EB0A48E00FE6E53 /* PSSNoneDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSSNoneDataView.m; sourceTree = "<group>"; };
+		B66321C21EC43957005651F3 /* PSSNoneDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSSNoneDataView.h; sourceTree = "<group>"; };
+		B66321C31EC43957005651F3 /* PSSNoneDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSSNoneDataView.m; sourceTree = "<group>"; };
+		B66321C41EC43957005651F3 /* UITableView+PSSNoneData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+PSSNoneData.h"; sourceTree = "<group>"; };
+		B66321C51EC43957005651F3 /* UITableView+PSSNoneData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+PSSNoneData.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				8952E6231EB0A3FC00FE6E53 /* AppDelegate.m */,
 				8952E6251EB0A3FC00FE6E53 /* ViewController.h */,
 				8952E6261EB0A3FC00FE6E53 /* ViewController.m */,
-				8952E6361EB0A44F00FE6E53 /* UITableView+PSSNoneData */,
+				B66321C01EC43957005651F3 /* PSSTableViewNoneDataSet */,
 				8952E6281EB0A3FC00FE6E53 /* Main.storyboard */,
 				8952E62B1EB0A3FC00FE6E53 /* Assets.xcassets */,
 				8952E62D1EB0A3FC00FE6E53 /* LaunchScreen.storyboard */,
@@ -86,21 +86,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8952E6361EB0A44F00FE6E53 /* UITableView+PSSNoneData */ = {
+		B66321C01EC43957005651F3 /* PSSTableViewNoneDataSet */ = {
 			isa = PBXGroup;
 			children = (
-				8952E6381EB0A47000FE6E53 /* UITableView+PSSNoneData.h */,
-				8952E6391EB0A47000FE6E53 /* UITableView+PSSNoneData.m */,
-				8952E6371EB0A44F00FE6E53 /* PSSNoneDataView */,
+				B66321C11EC43957005651F3 /* PSSNoneDataView */,
+				B66321C41EC43957005651F3 /* UITableView+PSSNoneData.h */,
+				B66321C51EC43957005651F3 /* UITableView+PSSNoneData.m */,
 			);
-			path = "UITableView+PSSNoneData";
-			sourceTree = "<group>";
+			path = PSSTableViewNoneDataSet;
+			sourceTree = SOURCE_ROOT;
 		};
-		8952E6371EB0A44F00FE6E53 /* PSSNoneDataView */ = {
+		B66321C11EC43957005651F3 /* PSSNoneDataView */ = {
 			isa = PBXGroup;
 			children = (
-				8952E63B1EB0A48E00FE6E53 /* PSSNoneDataView.h */,
-				8952E63C1EB0A48E00FE6E53 /* PSSNoneDataView.m */,
+				B66321C21EC43957005651F3 /* PSSNoneDataView.h */,
+				B66321C31EC43957005651F3 /* PSSNoneDataView.m */,
 			);
 			path = PSSNoneDataView;
 			sourceTree = "<group>";
@@ -177,11 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8952E63D1EB0A48E00FE6E53 /* PSSNoneDataView.m in Sources */,
-				8952E63A1EB0A47000FE6E53 /* UITableView+PSSNoneData.m in Sources */,
 				8952E6271EB0A3FC00FE6E53 /* ViewController.m in Sources */,
 				8952E6241EB0A3FC00FE6E53 /* AppDelegate.m in Sources */,
+				B66321C71EC43957005651F3 /* UITableView+PSSNoneData.m in Sources */,
 				8952E6211EB0A3FC00FE6E53 /* main.m in Sources */,
+				B66321C61EC43957005651F3 /* PSSNoneDataView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +340,7 @@
 				8952E6351EB0A3FC00FE6E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
